@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@opam/core": "v0.16.2",
+    "@opam/domainslib": "0.5.0",
+    "@opam/dune": "3.12.1",
+    "@opam/ocaml-lsp-server": "1.16.2",
+    "@opam/ocamlformat": "0.26.1",
+    "@opam/ppxlib": "0.31.0",
+    "ocaml": "^5.1.4",
+    "@opam/landmarks": "LexiFi/landmarks:landmarks.opam#b0c753cd2a4c4aa00dffdd3be187d8ed592fabf7"
+  }
+}
