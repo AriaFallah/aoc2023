@@ -1,5 +1,5 @@
 {
-  "checksum": "b1890444bc8ea35c173f91910cd46b37",
+  "checksum": "b8b8191837a774b1e997815485d6bee2",
   "root": "aoc2023@link-dev:./package.json",
   "node": {
     "ocaml@5.1.4@d41d8cd9": {
@@ -27,7 +27,8 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@5.1.4@d41d8cd9", "@opam/ppxlib@opam:0.31.0@1212d9eb",
+        "ocaml@5.1.4@d41d8cd9", "@opam/re@opam:1.11.0@87deb463",
+        "@opam/ppxlib@opam:0.31.0@1212d9eb",
         "@opam/ocamlformat@opam:0.26.1@3a835116",
         "@opam/ocaml-lsp-server@opam:1.16.2@6e0031b9",
         "@opam/landmarks@github:LexiFi/landmarks:landmarks.opam#b0c753cd2a4c4aa00dffdd3be187d8ed592fabf7@d41d8cd9",

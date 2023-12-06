@@ -1,0 +1,17 @@
+(library
+ (name day02)
+ (modules day02)
+ (libraries core re)
+ (inline_tests)
+ (preprocess
+  (pps ppx_include))
+ (preprocessor_deps
+  (file input.txt)))
+
+(executable
+ (name run)
+ (modules run)
+ (libraries day02))
+
+(rule
+ (write-file run.ml "let () = Day02.main ()"))
